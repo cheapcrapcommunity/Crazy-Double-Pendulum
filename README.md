@@ -19,3 +19,6 @@ Sound design:
 Conclusion:
 
 Overall, I like the sound of this piece, and the physical object brings a lot of dynamic elements to the music. I think randomness could be produced in complicated chaos, even each element in the chaos is almost certain. And the best thing is the sound won’t stop because the hinges stop moving, since there’re numbers stored in the Markov chains.
+
+
+I learnt how to build the Double Pendulum through dude837's youtube tutorial: https://www.youtube.com/watch?v=GSYkr4ZSYzs&list=PLD45EDA6F67827497&index=75 and used the Plate reverb in the style of Griesinger from Randy Jones rej@2uptech.com in this patch. Thank you very much.
