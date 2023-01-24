@@ -16,6 +16,8 @@ Sound design:
 4.	 Layer4 is a noise generator connecting with a resonant bandpass filter which is controlled by the filterParameters subpatch. The center frequency is controlled by markov2, and Q value is decided by the rotation degree.
 5.	Layer5 is a last modification according to the current sound the double pendulum produced. The current whole sounds like the wheels of a crazy train, so I want to add a track that I recorded in train to resample. The markov3 use the Ypos of the 2nd hinge when it’s higher then 0, so when the 2nd is on the top, it keeps resampling with different starting point, and when it drops, it uses the last number from markov3 as the resample speed. However, after adding layer5, the high frequency is overlapping with the ones from layer3, so I set a specific probability weight for triggering each layer. 
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/666556872?h=08ac45f02f" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 Conclusion:
 
 Overall, I like the sound of this piece, and the physical object brings a lot of dynamic elements to the music. I think randomness could be produced in complicated chaos, even each element in the chaos is almost certain. And the best thing is the sound won’t stop because the hinges stop moving, since there’re numbers stored in the Markov chains.
